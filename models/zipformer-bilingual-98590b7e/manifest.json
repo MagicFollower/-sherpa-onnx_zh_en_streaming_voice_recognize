@@ -1,0 +1,52 @@
+{
+  "repo": "csukuangfj/sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20",
+  "revision": "98590b7ed6443e77b714204da2757d75e1a642f4",
+  "files": {
+    "encoder-epoch-99-avg-1.int8.onnx": {
+      "size": 181895032,
+      "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20/resolve/98590b7ed6443e77b714204da2757d75e1a642f4/encoder-epoch-99-avg-1.int8.onnx",
+      "local_sha256": "8fa764187a261844f859d7143ebaa563af5d10adfece4c18a8f414c88cba2a9b",
+      "upstream_lfs_sha256": "8fa764187a261844f859d7143ebaa563af5d10adfece4c18a8f414c88cba2a9b",
+      "git_blob_oid": "2be64b8812623c4974bf6224b1491027d7863083"
+    },
+    "decoder-epoch-99-avg-1.onnx": {
+      "size": 13876452,
+      "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20/resolve/98590b7ed6443e77b714204da2757d75e1a642f4/decoder-epoch-99-avg-1.onnx",
+      "local_sha256": "2e3b5ec371f8899ee6acd829fd753ba45772df57a91bdf37cde3136354e7db7d",
+      "upstream_lfs_sha256": "2e3b5ec371f8899ee6acd829fd753ba45772df57a91bdf37cde3136354e7db7d",
+      "git_blob_oid": "ac9909ad95c0f25160f97943d808b3806e9444b5"
+    },
+    "joiner-epoch-99-avg-1.int8.onnx": {
+      "size": 3228404,
+      "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20/resolve/98590b7ed6443e77b714204da2757d75e1a642f4/joiner-epoch-99-avg-1.int8.onnx",
+      "local_sha256": "1ed689c5ed19dbaa725d9d191bb4822b5f4855a39e1ffd28cbc1f340d25b2ee0",
+      "upstream_lfs_sha256": "1ed689c5ed19dbaa725d9d191bb4822b5f4855a39e1ffd28cbc1f340d25b2ee0",
+      "git_blob_oid": "3a445a3b38b4e8768474168e41a75b2a7dbfc8eb"
+    },
+    "tokens.txt": {
+      "size": 56317,
+      "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20/resolve/98590b7ed6443e77b714204da2757d75e1a642f4/tokens.txt",
+      "local_sha256": "a8e0e4ec53810e433789b54a5c0134a7eaa2ffca595a6334d54c00da858841d3",
+      "upstream_lfs_sha256": null,
+      "git_blob_oid": "980dd6cd2d71532898b1eac4a4ac9a91302083b6"
+    }
+  },
+  "encoder_metadata": {
+    "onnx.infer": "onnxruntime.quant",
+    "model_type": "zipformer",
+    "version": "1",
+    "model_author": "k2-fsa",
+    "decode_chunk_len": "32",
+    "T": "39",
+    "num_encoder_layers": "2,4,3,2,4",
+    "encoder_dims": "384,384,384,384,384",
+    "attention_dims": "192,192,192,192,192",
+    "cnn_module_kernels": "31,31,31,31,31",
+    "left_context_len": "64,32,16,8,32"
+  },
+  "sherpa_onnx": "1.13.8",
+  "feature_shift_samples": 160,
+  "enhancements_enabled": false,
+  "prepared_at": "2026-09-21T14:20:18.326909+00:00",
+  "integrity_note": "LFS摘要非数字签名；tokens的SHA256仅为本地记录"
+}
