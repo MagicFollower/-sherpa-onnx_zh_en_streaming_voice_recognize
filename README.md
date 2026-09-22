@@ -4,6 +4,12 @@
 
 听间是一个运行在普通 Windows 电脑上的**本地离线实时语音转写**系统。后端加载 INT8 量化的 Zipformer 双语模型完成中英混说流式识别，前端通过 Web Audio API 采集麦克风音频并经 WebSocket 流式传输。所有推理在本地 CPU 完成，不联网、不上报任何数据。手机通过局域网 HTTPS 访问同一服务。
 
+> **关于名称**：
+>
+> **ASR**（Automatic Speech Recognition，自动语音识别）是将语音音频转换为文字的通用技术术语。
+>
+> **LASR**（LASR Local Voice Studio，听间 · 本地语音工作台）是本项目的协议名称与应用代号，"Local" 强调完全本地离线运行的核心特征。代码中的 `lasr` 包名、CLI 入口 `python -m lasr`、WebSocket 子协议 `lasr` 均指向本项目。
+
 ![听间界面](images/x01.png)
 
 ---
