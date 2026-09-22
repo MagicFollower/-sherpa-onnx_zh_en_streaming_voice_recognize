@@ -1,0 +1,34 @@
+# 缓存
+.cache/
+
+# ── 前端 ──
+前端/node_modules/
+前端/dist/
+前端/coverage/
+前端/test-results/
+前端/playwright-report/
+前端/.cert*.pem
+前端/.cert-key.pem
+
+# ── 后端 ──
+后端/.venv/
+后端/__pycache__/
+后端/*.py[cod]
+后端/*.egg-info/
+后端/.pytest_cache/
+后端/.ruff_cache/
+后端/build/
+后端/dist/
+后端/*.pem
+后端/*.key
+后端/*.crt
+
+# 证书密钥（根目录）
+/*.pem
+/*.key
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 注意：models/ 目录下的模型文件需要随仓库分发，不做忽略
